@@ -77,3 +77,13 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.div_nose {
+  height: 1rem;
+  width: 2rem;
+  background: linear-gradient(to bottom, #cecebf 30%, #eceed9 100%);
+  border-radius: 0 0 1rem 1rem;
+  top: 15rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
