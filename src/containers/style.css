@@ -67,3 +67,13 @@ body {
   border-radius: 30%;
   background: linear-gradient(to bottom, #cecebf 30%, #eceed9 100%);
 }
+
+.div_mouth {
+  height: 3rem;
+  width: 6rem;
+  background: #ed2629;
+  border-radius: 0 0 3rem 3rem;
+  top: 18rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
