@@ -18,11 +18,12 @@ class Panel extends React.Component {
     return (
       <div>
         <div className={styles.div_Box}>
-          hi
         </div>
         <div className={styles.div_Circle}>
         </div>
         <div className={styles.div_Triangle}>
+        </div>
+        <div className={styles.div_Trapezoid}>
         </div>
       </div>
     )

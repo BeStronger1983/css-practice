@@ -19,3 +19,12 @@
   border-right: 5rem solid transparent;
   display: inline-block;
 }
+
+.div_Trapezoid {
+  border-top: 0rem solid transparent;
+  border-bottom: 10rem solid blue;
+  border-left: 10rem solid transparent;
+  border-right: 10rem solid transparent;
+  display: inline-block;
+  width: 10rem;
+}
