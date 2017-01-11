@@ -28,6 +28,8 @@ class Panel extends React.Component {
             <div className={styles.div_nose}>
             </div>
             <div className={styles.div_eye_border}>
+              <div className={styles.div_eyebrow}>
+              </div>
               <div className={styles.div_eye}>
               </div>
             </div>
