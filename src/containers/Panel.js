@@ -2,42 +2,41 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import Show from '../components/Show';
-import Btn from '../components/Btn';
+import CSSModules from 'react-css-modules';
 
-import * as counterAction from '../actions/counterAction';
+import styles from  './style';
 
 class Panel extends React.Component {
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    render() {
+  render() {
 
-        const { number, actions } = this.props;
+    const { number, actions } = this.props;
 
-        return (
-            <div>
-                <Show num={number} />
-                <Btn 
-                    increment={actions.incrementAction} 
-                    decrement={actions.decrementAction}
-                />
-            </div>
-        )
-    }
+    return (
+      <div>
+        <div className={styles.div_Box}>
+          hi
+        </div>
+        <div className={styles.div_Circle}>
+        </div>
+        <div className={styles.div_Triangle}>
+        </div>
+      </div>
+    )
+  }
 }
 
 const mapStateToProps = (state) => {
-    return {
-        number: state.counterReducer.number
-    }
+  return {
+  }
 }
 
 const mapDispatchToProps = (dispatch) => {
-    return {
-        actions: bindActionCreators(counterAction, dispatch)
-    }
+  return {
+  }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Panel);
+export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(Panel, styles));

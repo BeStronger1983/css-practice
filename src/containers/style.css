@@ -1,0 +1,21 @@
+
+.div_Box {
+  height: 5rem;
+  width: 5rem;
+  background: #000;
+}
+
+.div_Circle {
+  height: 5rem;
+  width: 5rem;
+  background: #000;
+  border-radius: 50%;
+}
+
+.div_Triangle {
+  border-top: 5rem solid red;
+  border-bottom: 5rem solid blue;
+  border-left: 5rem solid green;
+  border-right: 5rem solid gray;
+  display: inline-block;
+}
