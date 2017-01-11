@@ -87,3 +87,22 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.div_eye_border {
+  height: 2.5rem;
+  width: 5rem;
+  border-radius: 0 0 2.5rem 2.5rem;
+  background: linear-gradient(to bottom, #cecebf 30%, #eceed9 100%);
+  top: 10.5rem;
+  transform: rotate(25deg);
+}
+
+.div_eye {
+  height: 1.6rem;
+  width: 3.2rem;
+  border-radius: 0 0 1.6rem 1.6rem;
+  background: #ed2528;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: -0.2rem 0.1rem 0 0.1rem black
+}
