@@ -28,3 +28,42 @@
   display: inline-block;
   width: 10rem;
 }
+
+body {
+  background: #444;
+  width: 99%;
+  height: 100%;
+}
+
+.div_vampire div {
+  position: absolute;
+}
+
+.div_vampire {
+  position: relative;
+}
+
+.div_head {
+  height: 23rem;
+  width: 16rem;
+  background: #eceed9;
+  border-radius: 10% 30% 50% 50%/10% 10% 40% 35%;
+  overflow: hidden;
+}
+
+.div_cheek_left {
+  height: 5rem;
+  width: 5rem;
+  bottom: 0;
+  border-radius: 30%;
+  background: linear-gradient(to bottom, #cecebf 30%, #eceed9 100%);
+}
+
+.div_cheek_right {
+  height: 5rem;
+  width: 5rem;
+  bottom: 0;
+  right: 0;
+  border-radius: 30%;
+  background: linear-gradient(to bottom, #cecebf 30%, #eceed9 100%);
+}

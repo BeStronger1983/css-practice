@@ -16,14 +16,14 @@ class Panel extends React.Component {
     const { number, actions } = this.props;
 
     return (
-      <div>
-        <div className={styles.div_Box}>
-        </div>
-        <div className={styles.div_Circle}>
-        </div>
-        <div className={styles.div_Triangle}>
-        </div>
-        <div className={styles.div_Trapezoid}>
+      <div className>
+        <div className={styles.div_vampire}>
+          <div className={styles.div_head}>
+            <div className={styles.div_cheek_left}>
+            </div>
+            <div className={styles.div_cheek_right}>
+            </div>
+          </div>
         </div>
       </div>
     )
