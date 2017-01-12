@@ -81,6 +81,25 @@ body {
   composes: h_center;
 }
 
+.div_top_teeth_left {
+  left: 0.5rem;
+  border-top: 1rem solid white;
+  border-bottom: 0rem solid ;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+}
+
+.div_top_teeth_right {
+  composes: div_top_teeth_left;
+  left: auto;
+  right: 0.5rem;
+}
+
+.div_top_teeth_mid {
+  height: 0.5rem;
+  width: 60%;
+  background: white;
+  composes: h_center;
 }
 
 .div_nose {

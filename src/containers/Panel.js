@@ -24,6 +24,12 @@ class Panel extends React.Component {
             <div className={styles.div_cheek_right}>
             </div>
             <div className={styles.div_mouth}>
+              <div className={styles.div_top_teeth_left}>
+              </div>
+              <div className={styles.div_top_teeth_right}>
+              </div>
+              <div className={styles.div_top_teeth_mid}>
+              </div>
             </div>
             <div className={styles.div_nose}>
             </div>
