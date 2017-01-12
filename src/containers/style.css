@@ -1,6 +1,10 @@
 /**/
 
-@value eye: #ed2528;
+@value color_skin: #eceed9;
+@value color_mouth: #ed2629;
+@value color_eye: #ed2528;
+@value color_eye_brow: #221d21;
+@value color_hair: #212127;
 
 /**/
 
@@ -60,7 +64,7 @@ body {
 .div_head {
   height: 22rem;
   width: 16rem;
-  background: #eceed9;
+  background: linear-gradient(to bottom, color_hair 40%, color_skin 40%);
   border-radius: 45% 49% 50% 50%/31% 30% 35% 35%;
   overflow: hidden;
 }
@@ -83,7 +87,7 @@ body {
 .div_mouth {
   height: 3rem;
   width: 6rem;
-  background: #ed2629;
+  background: color_mouth;
   border-radius: 0 0 3rem 3rem;
   bottom: 2rem;
   composes: h_center;
@@ -147,7 +151,7 @@ body {
 .div_eyebrow_left {
   top: -1rem;
   border-top: 0rem solid;
-  border-bottom: 1rem solid #221d21;
+  border-bottom: 1rem solid color_eye_brow;
   border-left: 1rem solid transparent;
   border-right: 4rem solid transparent;
 }
@@ -156,7 +160,7 @@ body {
   height: 1.6rem;
   width: 3.2rem;
   border-radius: 0 0 1.6rem 1.6rem;
-  background: eye;
+  background: color_eye;
   composes: h_center;
   box-shadow: -0.2rem 0.1rem 0 0.1rem black
 }
