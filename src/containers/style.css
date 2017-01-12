@@ -1,9 +1,23 @@
+/**/
+
 @value eye: #ed2528;
+
+/**/
+
+body {
+  background: #444;
+  width: 99%;
+  height: 100%;
+}
+
+/**/
 
 .h_center {
   left: 50%;
   transform: translateX(-50%);
 }
+
+/**/
 
 .div_Box {
   height: 5rem;
@@ -33,12 +47,6 @@
   border-right: 10rem solid transparent;
   display: inline-block;
   width: 10rem;
-}
-
-body {
-  background: #444;
-  width: 99%;
-  height: 100%;
 }
 
 .div_vampire div {
