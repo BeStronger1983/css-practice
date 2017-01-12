@@ -1,3 +1,4 @@
+@value eye: #ed2528;
 
 .div_Box {
   height: 5rem;
@@ -109,7 +110,7 @@ body {
   height: 1.6rem;
   width: 3.2rem;
   border-radius: 0 0 1.6rem 1.6rem;
-  background: #ed2528;
+  background: eye;
   left: 50%;
   transform: translateX(-50%);
   box-shadow: -0.2rem 0.1rem 0 0.1rem black

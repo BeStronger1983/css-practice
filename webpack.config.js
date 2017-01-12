@@ -1,4 +1,6 @@
 var path = require('path');
+var values = require('postcss-modules-values');
+
 module.exports = {
   devServer: {
     host: 'localhost',
@@ -25,9 +27,14 @@ module.exports = {
         test: /\.css$/,
         loaders: [
           'style?sourceMap',
-          'css?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]'
+          'css?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]',
+          'postcss-loader'
         ]
       }
     ]
-  }, devtool: 'source-map'
+  }, 
+  devtool: 'source-map',
+  postcss: [
+    values
+  ]
 };

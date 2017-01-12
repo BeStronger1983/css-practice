@@ -19,6 +19,8 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
     "css-loader": "^0.26.1",
+    "postcss-loader": "^1.2.2",
+    "postcss-modules-values": "^1.2.2",
     "react": "^15.4.1",
     "react-css-modules": "^4.1.0",
     "react-dom": "^15.4.1",
