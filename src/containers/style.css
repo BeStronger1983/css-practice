@@ -54,19 +54,17 @@ body {
 
 .div_cheek_left {
   height: 6rem;
-  width: 4rem;
+  width: 5rem;
+  left: -1rem;
   bottom: 0;
   border-radius: 30%;
   background: linear-gradient(to bottom, #cecebf 30%, #eceed9 100%);
 }
 
 .div_cheek_right {
-  height: 6rem;
-  width: 4rem;
-  bottom: 0;
-  right: 0;
-  border-radius: 30%;
-  background: linear-gradient(to bottom, #cecebf 30%, #eceed9 100%);
+  composes: div_cheek_left;
+  left: auto;
+  right: -1rem;
 }
 
 .div_mouth {
