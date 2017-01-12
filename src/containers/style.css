@@ -88,16 +88,16 @@ body {
   transform: translateX(-50%);
 }
 
-.div_eye_border {
+.div_eye_border_left {
   height: 2.5rem;
   width: 5rem;
   border-radius: 0 0 2.5rem 2.5rem;
   background: linear-gradient(to bottom, #cecebf 30%, #eceed9 100%);
-  top: 10.5rem;
+  top: 11.5rem;
   transform: rotate(25deg);
 }
 
-.div_eyebrow {
+.div_eyebrow_left {
   top: -1rem;
   border-top: 0rem solid;
   border-bottom: 1rem solid #221d21;
@@ -105,7 +105,7 @@ body {
   border-right: 4rem solid transparent;
 }
 
-.div_eye {
+.div_eye_left {
   height: 1.6rem;
   width: 3.2rem;
   border-radius: 0 0 1.6rem 1.6rem;
@@ -113,4 +113,18 @@ body {
   left: 50%;
   transform: translateX(-50%);
   box-shadow: -0.2rem 0.1rem 0 0.1rem black
+}
+
+.div_eye_border_right {
+  composes: div_eye_border_left;
+  right: 0;
+  transform: rotate(-25deg) rotateY(180deg);
+}
+
+.div_eyebrow_right {
+  composes: div_eyebrow_left;
+}
+
+.div_eye_right {
+  composes: div_eye_left;
 }
