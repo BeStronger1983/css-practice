@@ -85,7 +85,7 @@ body {
   width: 6rem;
   background: #ed2629;
   border-radius: 0 0 3rem 3rem;
-  top: 18rem;
+  bottom: 2rem;
   composes: h_center;
   overflow: hidden;
 }
