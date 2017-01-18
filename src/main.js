@@ -1,14 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
+import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 
-import Vampire from './containers/Vampire';
+import Vampire from './containers/Vampire/index';
 
 import configureStore from './store/configureStore';
 
-ReactDOM.render(
+render(
   <Provider store={configureStore}>
-      <Vampire />
+    <Vampire />
   </Provider>
-  , document.getElementById('app'));
+  , document.getElementById('app')
+);
