@@ -2,13 +2,14 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 
-import Vampire from './containers/Vampire/index';
+// import Vampire from './containers/Vampire/index';
+import PieChart from './containers/PieChart/index';
 
 import configureStore from './store/configureStore';
 
 render(
   <Provider store={configureStore}>
-    <Vampire />
+    <PieChart />
   </Provider>
   , document.getElementById('app')
 );
