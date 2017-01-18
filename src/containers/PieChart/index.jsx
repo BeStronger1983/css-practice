@@ -30,6 +30,9 @@ class PieChart extends React.Component {
         </div>
         <div className={styles.transform_origin_test2}>
         </div>
+        <div className={styles.test_before_after}>
+          test
+        </div>
       </div>
     )
   }

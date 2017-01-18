@@ -1,6 +1,5 @@
 
 .divRoot {
-  color: blue;
 }
 
 /* 半圓 */
@@ -149,4 +148,21 @@
   background: red;
   transform: rotate(45deg);
   transform-origin:0% 0%;
+}
+
+.test_before_after {
+  position: absolute;
+  top: 630px;
+  left: 50px;
+  color: black;
+}
+
+.test_before_after::before {
+  content: "before ";
+  color: blue;
+}
+
+.test_before_after::after {
+  content: " after";
+  color: red;
 }
