@@ -24,6 +24,10 @@ class PieChart extends React.Component {
         </div>
         <div className={styles.with_padding_with_border_box}>
         </div>
+        <div className={styles.transform_origin_test}>
+        </div>
+        <div className={styles.transform_origin_test2}>
+        </div>
       </div>
     )
   }

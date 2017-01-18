@@ -123,3 +123,19 @@
   border: 1px solid red;
   box-sizing: border-box;
 }
+
+.transform_origin_test {
+  position:absolute;
+  top: 450px;
+  left: 100px;
+  width:100px;
+  height:100px;
+  background:black;
+}
+
+.transform_origin_test2 {
+  composes: transform_origin_test;
+  background: red;
+  transform: rotate(45deg);
+  transform-origin:0% 0%;
+}
