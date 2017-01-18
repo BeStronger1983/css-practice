@@ -14,7 +14,7 @@ class PieChart extends React.Component {
   render() {
     return (
       <div className={styles.divRoot}>
-        <div className={styles.PieChart}>
+        <div className={styles.pie_chart}>
         </div>
         <div className={styles.no_padding_no_border_box}>
         </div>

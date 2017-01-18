@@ -3,7 +3,7 @@
   color: blue;
 }
 
-.PieChart {
+.pie_chart {
   position:absolute;
   width:50px;
   height:100px;
@@ -12,7 +12,7 @@
   -webkit-animation:a 5s infinite linear;
 }
 
-.PieChart:before, .PieChart:after{
+.pie_chart:before, .pie_chart:after{
   content:"";
   box-sizing:border-box;
   position:absolute;
@@ -28,13 +28,13 @@
   transform-origin:50px 50px;
 }
 
-.PieChart:before{
+.pie_chart:before{
   z-index:1;
   -webkit-animation:a1 5s infinite linear;
   transform:rotate(-90deg);
 }
 
-.PieChart:after{
+.pie_chart:after{
   opacity:0;
   z-index:2;
   transform:rotate(90deg);
