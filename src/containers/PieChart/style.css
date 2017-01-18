@@ -87,3 +87,39 @@
     border-radius:0;
   }
 }
+
+.no_padding_no_border_box {
+  position:absolute;
+  top: 150px;
+  width: 300px;
+  height: 50px;
+  border: 1px solid blue;
+}
+
+.with_padding_no_border_box {
+  position:absolute;
+  top: 210px;
+  width: 300px;
+  height: 50px;    
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.no_padding_with_border_box {
+  position:absolute;
+  top: 290px;
+  width: 300px;
+  height: 50px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.with_padding_with_border_box {
+  position:absolute;
+  top: 350px;
+  width: 300px;
+  height: 50px;    
+  padding: 10px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
