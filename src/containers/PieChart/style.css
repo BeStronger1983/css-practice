@@ -6,6 +6,18 @@
   color: blue;
 }
 
+/* 半圓 */
+.half_pie {
+  position:absolute;
+  width:50px;
+  height:100px;
+  overflow:hidden;
+  border-radius:0 50px 50px 0;
+  background:#0ce;
+  left: 150px;
+}
+
+/* 動態的 pie chart */
 .pie_chart {
   position:absolute;
   width:50px;
@@ -19,8 +31,7 @@
   content:"";
   box-sizing:border-box;
   position:absolute;
-  top:0;
-  right:0; 
+  right:0;
   width: pie_chart_width;
   height: pie_chart_height;
   background:#0ce;
