@@ -1,7 +1,4 @@
 
-@value pie_chart_width: 100px;
-@value pie_chart_height: 50px; /* half of width */
-
 .divRoot {
   color: blue;
 }
@@ -32,8 +29,8 @@
   box-sizing:border-box;
   position:absolute;
   right:0;
-  width: pie_chart_width;
-  height: pie_chart_height;
+  width: 100px;
+  height: 50px;
   background:#0ce;
   border-style:solid;
   border-color:#000;
