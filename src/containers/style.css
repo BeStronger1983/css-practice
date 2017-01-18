@@ -64,7 +64,7 @@ body {
 .div_head {
   height: 22rem;
   width: 16rem;
-  background: linear-gradient(to bottom, color_hair 40%, color_skin 40%);
+  background: linear-gradient(to bottom, color_hair 50%, color_skin 50%);
   border-radius: 45% 49% 50% 50%/31% 30% 35% 35%;
   overflow: hidden;
 }
@@ -177,4 +177,14 @@ body {
 
 .div_eye_right {
   composes: div_eye_left;
+}
+
+.div_face {
+  height: 11rem;
+  width: 12rem;
+  background: color_skin;
+  border-radius: 0 18rem;
+  top: 6rem;
+  left: -1.5rem;
+  transform: rotate(23deg);
 }

@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 
 import { Provider } from 'react-redux';
 
-import Panel from './containers/Panel';
+import Vampire from './containers/Vampire';
 
 import configureStore from './store/configureStore';
 
 ReactDOM.render(
   <Provider store={configureStore}>
-      <Panel />
+      <Vampire />
   </Provider>
   , document.getElementById('app'));

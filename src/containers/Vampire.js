@@ -6,7 +6,7 @@ import CSSModules from 'react-css-modules';
 
 import styles from  './style';
 
-class Panel extends React.Component {
+class Vampire extends React.Component {
   constructor() {
     super();
   }
@@ -19,6 +19,8 @@ class Panel extends React.Component {
       <div className>
         <div className={styles.div_vampire}>
           <div className={styles.div_head}>
+            <div className={styles.div_face}>
+            </div>
             <div className={styles.div_cheek_left}>
             </div>
             <div className={styles.div_cheek_right}>
@@ -66,4 +68,4 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(Panel, styles));
+export default connect(mapStateToProps, mapDispatchToProps)(CSSModules(Vampire, styles));
