@@ -23,7 +23,7 @@
   -webkit-animation:a 5s infinite linear;
 }
 
-.pie_chart:before, .pie_chart:after{
+.pie_chart::before, .pie_chart::after{
   content:"";
   box-sizing:border-box;
   position:absolute;
@@ -38,13 +38,13 @@
   transform-origin:50% 100%;
 }
 
-.pie_chart:before{
+.pie_chart::before{
   z-index:1;
   -webkit-animation:a1 5s infinite linear;
   transform:rotate(-90deg);
 }
 
-.pie_chart:after{
+.pie_chart::after{
   opacity:0;
   z-index:2;
   transform:rotate(90deg);
