@@ -10,7 +10,7 @@
   overflow:hidden;
   border-radius:0 50px 50px 0;
   background:#0ce;
-  left: 150px;
+  left: 200px;
 }
 
 /* 動態的 pie chart */
@@ -162,4 +162,9 @@
 .test_before_after::after {
   content: " after";
   color: red;
+}
+
+.pie_chart_2 {
+  position: absolute;
+  left: 350px;
 }
