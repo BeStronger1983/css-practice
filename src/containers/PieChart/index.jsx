@@ -57,6 +57,15 @@ class myPieChart extends React.Component {
             slices={slices}
           />
         </div>
+        <div className={styles.svg_circle}>
+          <svg>
+            <circle cx={50} cy={50} r={50} fill="blue">
+            </circle>
+            <text x={15} y={55} fill="white">
+              svg circle
+            </text>
+          </svg>
+        </div>
       </div>
     )
   }
