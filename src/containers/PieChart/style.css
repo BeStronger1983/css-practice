@@ -173,3 +173,9 @@
   position: absolute;
   left: 300px;
 }
+
+.svg_round_rect {
+  position: absolute;
+  left: 400px;
+  top: 250px;
+}

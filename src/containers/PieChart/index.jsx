@@ -66,6 +66,11 @@ class myPieChart extends React.Component {
             </text>
           </svg>
         </div>
+        <div className={styles.svg_round_rect}>
+          <svg>
+            <rect rx="20" ry="20" width="75" height="75" stroke="#FF5500" stroke-width="5" fill="#FFB255"/>
+          </svg>
+        </div>
       </div>
     )
   }
