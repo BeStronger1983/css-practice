@@ -31,6 +31,8 @@ class myPieChart extends React.Component {
       },
     ];
 
+    let svg_circle_color = "black";
+
     return (
       <div className={styles.divRoot}>
         <div className={styles.half_pie}>
@@ -59,7 +61,7 @@ class myPieChart extends React.Component {
         </div>
         <div className={styles.svg_circle}>
           <svg>
-            <circle cx={50} cy={50} r={50} fill="blue">
+            <circle cx={50} cy={50} r={50} fill={svg_circle_color}>
             </circle>
             <text x={15} y={55} fill="white">
               svg circle
