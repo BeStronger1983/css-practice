@@ -179,3 +179,9 @@
   left: 400px;
   top: 250px;
 }
+
+.svg_path {
+  position: absolute;
+  left: 400px;
+  top: 350px;
+}

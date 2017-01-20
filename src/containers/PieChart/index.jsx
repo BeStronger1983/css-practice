@@ -73,6 +73,11 @@ class myPieChart extends React.Component {
             <rect rx="10" ry="10" width="75" height="75" stroke="#FF5500" strokeWidth="5" fill="#FFB255"/>
           </svg>
         </div>
+        <div className={styles.svg_path}>
+          <svg>
+            <path d="M0 0 H50" stroke="black" strokeWidth="5"/>
+          </svg>
+        </div>
       </div>
     )
   }
